@@ -16,3 +16,9 @@ for i in range(n):
 
 total = sum(hasil_panen)
 print(f"Total hasil panen: {total} kg")
+def hitung_diskon(total):
+    if total >= 1000:
+        return total * 0.10
+    elif total >= 500:
+        return total * 0.05
+    return 0
